@@ -100,5 +100,7 @@ label[for=more-videos]{
     color: #fff;
     font-size: 20px;
 }
-.form-content {
+#submit:hover{
+    background:#257443;
+    transition: background .3s ease;
 }

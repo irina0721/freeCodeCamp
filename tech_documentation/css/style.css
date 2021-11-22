@@ -1,0 +1,122 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    background-color: #003333;
+    color: #d1d1e0;
+}
+p{
+    line-height: 40px;
+}
+#main-doc{
+    display: flex;
+    flex-direction: column;
+}
+#nav-bar{
+    width: 100%;
+    height: 100%;
+    background-color: #00ffff;
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+}
+ #nav-bar header{
+    color: #000;
+    font-size: 35px;
+}
+#nav-bar ul{
+    padding: 0;
+    font-size: 25px;
+}
+ #nav-bar ul li{
+    margin-bottom: 15px;
+    list-style: none;
+    width: 100%;
+}
+#nav-bar ul li a{
+    color: #000;
+    height: 30px;
+    text-decoration: none;
+}
+#nav-bar ul li a:hover{
+    color:  #006666;
+}
+.content{
+    padding:0 20px 20px;
+}
+.main-section{
+    min-height: 100vh;
+    width: 100%;
+    border-bottom: 2px dashed #009966;
+}
+.main-section header{
+    color: #000;
+    font-size: 30px;
+    padding-top: 30px;
+}
+.main-section ol li{
+    margin-bottom: 15px;
+}
+.main-section ol li a{
+    color:  #009966;
+    text-decoration: none;
+    font-size: 14px;
+}
+.main-section ol li {
+    list-style-type: none;
+}
+.main-section ol li:before {
+    color:  #000;
+    content: "¶ ";
+    padding-right: 10px;
+}
+.main-section ol li a:hover{
+    color:  #006666;
+}
+@media(min-width: 900px){
+    #main-doc {
+      flex-direction: row
+    }
+
+    #nav-bar {
+      width: 250px;
+      height: 100vh;
+      background-color: #00ffff;
+      margin-top: 0;
+      text-align: left;
+      position: fixed;
+
+    }
+
+    .divider {
+      width: 100%;
+      margin: 0;
+      min-height: 100px;
+      background-color: #669999;
+      padding: 0 0 30px 0;
+    }
+
+    #nav-bar header,
+    #nav-bar ul {
+      padding-left: 40px;
+    }
+
+     #nav-bar header {
+      color: #ddd;
+      padding-left: 40px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      background-color:	 #001a1a;
+    }
+
+     #nav-bar ul li {
+      padding-top: 15px;
+    }
+
+    .content {
+      margin-left: 350px;
+    }
+  }
+

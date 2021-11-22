@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="main">
+    <main class="main">
         <header id="header">
             <div class="logo">
                 <img id="header-img" src="img/logo-2.png" alt="logo">
@@ -29,52 +29,47 @@
             <h2>Professional website development on order </h2>
             <form id="form" action="https://www.freecodecamp.com/email-submit">
             <input type="email" placeholder="Enter your email address" name="email" id="email" required>
-            <input type="submit" id="submit" value="getstarted">
+            <button type="submit" id="submit">Submit</button>
             </form>
         </div>
-<div id="features">
-    <div class="card">
-        <div class="icon">
-            <i class="fas fa-crown"></i></div>
-            <div class="content">
-                <h2>IDEAS & CONCEPTS</h2>
+    <div id="features">
+            <div class="content-first">
+                <h2>
+                    Ideas&concepts
+                </h2>
                 <p>
                     Each site is created by a team of professionals who have extensive experience in the field of design and web development.
                 </p>
             </div>
-    </div>
-    <div class="card">
-        <div class="icon">
-            <i class="fas fa-rocket"></i></div>
             <div class="content">
-                <h2>RESPONSIVE DESIGN</h2>
+                <h2>
+                    Responsive design
+                </h2>
                 <p>
                     We develop websites of any complexity, from simple one-pagers to online stores. One thing remains unchanged: the quality of our work and the attention to detail.
                 </p>
             </div>
-    </div>
-    <div class="card">
-        <div class="icon">
-            <i class="fas fa-cogs"></i></div>
-            <div class="content">
-                <h2>TECHNICAL SUPPORT</h2>
+            <div class="content-last">
+                <h2>
+                    Technical support
+                </h2>
                 <p>
                     We will take all your wishes in terms of structure, design, and content into account and will develop a modern, effective, and beautiful website for your business.
                 </p>
                 </p>
             </div>
     </div>
-</div>
-<div class="how-it-works">
+<div id="how-it-works">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/XdHAN08v7TY?" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <div id="pricing">
     <div class="card">
+        <div class="card-text">
         <h2>
-            from $350
+            W-Base
         </h2>
         <strong>
-            W-Base
+            from $350
         </strong>
         <p>
             Design based on our template
@@ -85,16 +80,16 @@
         <p>
             Selection of icons from stock image sites
         </p>
-        <button>
-            Select
-        </button>
+    </div>
+        <button type="submit" id="select"> Select</button>
     </div>
     <div class="card">
+        <div class="card-text">
         <h2>
-            from $540
+            W-Start
         </h2>
         <strong>
-            W-Start
+            from $540
         </strong>
         <p>
             Basic design
@@ -105,16 +100,16 @@
         <p>
             Text logo creation (vector format is not included)
         </p>
-        <button>
-            Select
-        </button>
+    </div>
+        <button type="submit" id="select"> Select</button>
     </div>
     <div class="card">
+        <div class="card-text">
         <h2>
-            from $700
+            W-Growth
         </h2>
         <strong>
-            W-Growth
+            from $700
         </strong>
         <p>
             Advanced design
@@ -125,16 +120,15 @@
         <p>
             Text logo creation in vector format
         </p>
-        <button>
-            Select
-        </button>
+        </div>
+        <button type="submit" id="select"> Select</button>
+    </form>
     </div>
 </div>
 <footer>
     <ul>
         <li>
             <a href="#">Privacy</a>
-
         </li>
         <li>
             <a href="#">Terms</a>
