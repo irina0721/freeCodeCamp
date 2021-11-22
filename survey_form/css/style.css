@@ -1,0 +1,104 @@
+body{
+    font-family: Lato, sans-serif;
+}
+.main {
+    background-image: url(../img/befe54128871365.615ef4b7c3727.jpg);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    overflow-y: scroll;
+    font-size: 24px;
+
+}
+.main::after{
+    content: "";
+    background-color: rgb(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+
+}
+.main>h1,.main>p{
+    text-align:center;
+    font-size: 35px;
+    z-index: 2;
+    position: relative;
+}
+label[for=name],
+label[for=email],
+label[for=number],
+label[for=dropdown],
+label[for=comment]{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.main-content {
+    background-color: rgb(27, 27, 50, .7);
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    z-index: 2;
+    position: relative;
+    box-shadow: 0px -1px 10px 5px lightblue;
+}
+ #name,#email,#number,#dropdown,#comment{
+    display: block;
+    width: 100%;
+    height: 35px;
+    padding: 5px 10px;
+    color: #000;
+    border: lightcyan;
+    border: 1px solid lightskyblue;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+#dropdown{
+    height: 45px;
+    background-color: #fff;
+    color: #777;
+}
+label[for=definitely],
+label[for=maybe],
+label[for=not-sure],
+label[for=video-lenght],
+label[for=content-quolity],
+label[for=more-videos]{
+    font-size: 18px;
+}
+#comment{
+    background-color: #fff;
+    color: #777;
+    font-family: Lato;
+}
+ #video-lenght,#content-quolity,#more-videos,fieldset input{
+    height: 20px;
+    width: 20px;
+    margin-bottom: 20px;
+ }
+#comment{
+    min-height: 180px;
+}
+#submit{
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: #37af65;
+    border-radius: 2px;
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+}
+.form-content {
+}
